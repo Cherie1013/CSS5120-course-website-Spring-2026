@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture — CSS5120</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="theme-picker">
+        <div class="theme-trigger">THEME</div>
+        <div class="theme-dots">
+            <div class="theme-dot active" data-theme="light" data-label="Light"></div>
+            <div class="theme-dot" data-theme="dark" data-label="Dark"></div>
+
+        </div>
+    </div>
+
+    <header class="course-header compact">
+        <div class="header-inner">
+            <div class="course-meta">
+                <span class="course-code">CSS5120</span>
+                <span class="course-semester">Spring 2026</span>
+            </div>
+            <h1 class="course-title">Computational Linguistics</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="outline.html" class="nav-link">Outline</a></li>
+            <li><a href="schedule.html" class="nav-link">Schedule</a></li>
+            <li><a href="lecture.html" class="nav-link active">Lecture</a></li>
+            <li><a href="assignment.html" class="nav-link">Assignment</a></li>
+            <li><a href="project.html" class="nav-link">Project</a></li>
+            <li><a href="materials.html" class="nav-link">Materials</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-content">
+        <div class="section-container">
+            <div class="page-title">
+                <h2>Lecture Notes &amp; Slides</h2>
+                <p>Lecture materials and lab handouts. Click to download.</p>
+            </div>
+
+            <div class="lecture-list">
+                <div class="lecture-item">
+                    <div class="lecture-week">W1</div>
+                    <div class="lecture-content">
+                        <h3>Introduction to Computational Linguistics for Social Science</h3>
+                        <p class="lecture-desc">Course overview, introduction to computational linguistics, its applications in social science research, and the course roadmap.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture1.pptx" class="link-lecture" download>Lecture 1 Slides</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W2</div>
+                    <div class="lecture-content">
+                        <h3>Text Representation &amp; Pre-LLM NLP + <span class="lab-tag">Lab 1</span></h3>
+                        <p class="lecture-desc">Classical NLP techniques: tokenization, bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), and neural language models before the LLM era.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture2.pptx" class="link-lecture" download>Lecture 2 Slides</a>
+                            <a href="lectures/Lab1.zip" class="link-lab" download>Lab 1 Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W3</div>
+                    <div class="lecture-content">
+                        <h3>Large Language Models + <span class="lab-tag">Lab 2</span></h3>
+                        <p class="lecture-desc">Transformer architecture, attention mechanisms, pre-training and self-supervised learning, emergent capabilities of LLMs, and prompting basics.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture3.pptx" class="link-lecture" download>Lecture 3 Slides</a>
+                            <a href="lectures/lab2.pdf" class="link-lab" download>Lab 2 Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W4</div>
+                    <div class="lecture-content">
+                        <h3>Fine-Tuning Large Language Models I</h3>
+                        <p class="lecture-desc">Supervised fine-tuning (SFT), instruction tuning, dataset construction, evaluation metrics, and best practices for adapting LLMs to downstream tasks.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture4.pptx" class="link-lecture" download>Lecture 4 Slides</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W5</div>
+                    <div class="lecture-content">
+                        <h3>Fine-Tuning Large Language Models II</h3>
+                        <p class="lecture-desc">Parameter-efficient fine-tuning methods (LoRA, adapters), RLHF overview, model quantization, and deployment considerations.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture5.pptx" class="link-lecture" download>Lecture 5 Slides</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W6</div>
+                    <div class="lecture-content">
+                        <h3><span class="lab-tag">Lecture 6 (Lab 3)</span></h3>
+                        <p class="lecture-desc">Hands-on lab session: implementing supervised fine-tuning on a base LLM, preparing instruction datasets, and evaluating fine-tuned models.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture6-lab.pdf" class="link-lecture" download>Lecture 6 (Lab 3) Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W7</div>
+                    <div class="lecture-content">
+                        <h3>LLM API and Coding + <span class="lab-tag">Lab 4</span></h3>
+                        <p class="lecture-desc">Working with commercial LLM APIs (OpenAI, Anthropic), API design patterns, rate limits and cost management, building applications with API calls, and coding assistants.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture7.pptx" class="link-lecture" download>Lecture 7 Slides</a>
+                            <a href="lectures/lab4.zip" class="link-lab" download>Lab 4 Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item placeholder">
+                    <div class="lecture-week">W8</div>
+                    <div class="lecture-content">
+                        <h3>Midterm Project Presentation</h3>
+                        <p class="lecture-desc">Student presentations of midterm projects with instructor feedback. No new lecture material.</p>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W9</div>
+                    <div class="lecture-content">
+                        <h3>LLM Agents</h3>
+                        <p class="lecture-desc">Agent architecture, ReAct pattern, tool use and function calling, memory mechanisms, planning and reasoning loops, and building autonomous agents.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture9.pptx" class="link-lecture" download>Lecture 9 Slides</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W10</div>
+                    <div class="lecture-content">
+                        <h3>Multi-agent LLMs + <span class="lab-tag">Lab 5</span></h3>
+                        <p class="lecture-desc">Multi-agent systems, agent communication protocols, collaborative problem solving, debate and consensus mechanisms, and swarm intelligence with LLMs.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture10.pptx" class="link-lecture" download>Lecture 10 Slides</a>
+                            <a href="lectures/lab5.zip" class="link-lab" download>Lab 5 Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W11</div>
+                    <div class="lecture-content">
+                        <h3>OpenClaw Agent + <span class="lab-tag">Lab 6</span></h3>
+                        <p class="lecture-desc">Introduction to the OpenClaw agent framework, architecture and design principles, building custom agents, and integration with external tools.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture11.pptx" class="link-lecture" download>Lecture 11 Slides</a>
+                            <a href="lectures/lab6.zip" class="link-lab" download>Lab 6 Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W12</div>
+                    <div class="lecture-content">
+                        <h3>Social Behaviors of LLM Agents + <span class="lab-tag">Lab 7</span></h3>
+                        <p class="lecture-desc">Simulating social interactions with LLM agents, emergent social behaviors, cooperation and competition, opinion dynamics, and applications in social science research.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lecture12.pptx" class="link-lecture" download>Lecture 12 Slides</a>
+                            <a href="lectures/lab7.pdf" class="link-lab" download>Lab 7 Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item">
+                    <div class="lecture-week">W13</div>
+                    <div class="lecture-content">
+                        <h3><span class="lab-tag">Lab 8</span></h3>
+                        <p class="lecture-desc">Final hands-on lab session.</p>
+                        <div class="lecture-links">
+                            <a href="lectures/lab8.zip" class="link-lab" download>Lab 8 Handout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lecture-item placeholder">
+                    <div class="lecture-week">W14</div>
+                    <div class="lecture-content">
+                        <h3>Final Project Workshop</h3>
+                        <p class="lecture-desc">In-class workshop for final project preparation, Q&amp;A session, and peer discussion.</p>
+                    </div>
+                </div>
+
+                <div class="lecture-item placeholder">
+                    <div class="lecture-week">W15</div>
+                    <div class="lecture-content">
+                        <h3>Final Project Presentation</h3>
+                        <p class="lecture-desc">Final project presentations with instructor feedback. Course wrap-up and concluding remarks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>CSS5120 — Computational Linguistics · Spring 2026</p>
+        <p class="footer-sub">The Chinese University of Hong Kong, Shenzhen · 2001 Longxiang Road Longgang District Shenzhen</p>
+    </footer>
+
+    <script src="theme.js"></script>
+</body>
+</html>
